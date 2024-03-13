@@ -1,0 +1,115 @@
+<DOCTYPE html>
+    <html>
+        <head>
+            <title>registration form</title>
+            <style>
+               body {
+            font-family: Arial, sans-serif;
+            background-color: lightblue;
+            margin: 0;
+            padding: 0;
+        }
+        
+        form {
+            background-color: #ffffff;
+            width: 50%;
+            margin: 50px auto;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1);
+        }
+        
+        fieldset {
+            border: none;
+            padding: 0;
+            margin: 0;
+        }
+        
+        legend {
+            font-size: 40px;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+        
+        label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+        
+        input[type="text"],
+        input[type="email"],
+        input[type="date"],
+        input[type="file"],
+        input[type="range"] {
+            width: calc(100% - 10px);
+            padding: 8px;
+            margin-bottom: 10px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+        
+        input[type="radio"] {
+            margin-right: 5px;
+        }
+        
+        button {
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: #ffffff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        
+        button:hover {
+            background-color: #0056b3;
+        }  
+            </style>
+            <body>
+                <form>
+                    <fieldset>
+                        <center><legend>Registration form</legend></center>
+                    
+                <label>Name</label>
+                    <input type="Name" placeholder="enter your name" required/><br><br>
+                <label>email</label>
+            <input type ="email" placeholdr="enter your email" required/><br><br>
+        <label>Address</label>
+    <input type="Address" size="50" required /><br><br>
+<label>date of birth </label>
+<input type ="date" /><br><br>
+<h2>gender</h2>
+
+<label>male</label>
+<input type="radio" name="gender"/>
+<label>female</label>
+<input type="radio" name="gender"/>
+<h2>Classes type</h2>
+<label> online</label>
+
+<input type="radio" name="online" />
+<label> offline</label>
+<input type="radio" name="offline" />
+<h2>Course name</h2>
+<label> java</label>
+<input type="radio" name="java" />
+<label> python</label>
+<input type="radio" name="python" />
+<label>upload resume</label>
+<input type="file choosen" place holder="upload"/><br><br>
+<label>rate</label>
+<input type="range"/><br><br>
+<button>submit</button>
+<button>cancel</button>
+</fieldset>
+
+
+
+ 
+
+       </form>
+            </body>
+        </head>
+    </html>
+</DOCTYPE>
